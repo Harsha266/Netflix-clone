@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    /* background-color: #111; */
+}
+body{
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.context{
+    background-color: #111;
+    /* color: white; */
+    
+
+}
+.topbar{
+    /* height: 4.8rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        #111
+        rgb(37,37,37,0.61),
+        
+    ); */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.blackbar{
+    background-color: #111;
+}
+.context{
+    position: relative;
+    top: 77px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+    /* position: relative;
+    top: 300px; */
+    color: white;
+    padding-left: 30px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner_fadebottom{
+    position: absolute;
+    top: 363px;
+    width:100%;
+    height: 7rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgb(37,37,37,0.71),
+        #111
+    );
+}
+.banner{
+    background-size:cover;
+    position: relative;
+    top: -78px;
+    color: white;
+    height: 700px;
+    max-height: 480px;
+    width:100%;
+    object-fit: cover;
+}
+.rows{
+    position: relative;
+    top:-80px;
+    color: white;
+}
+.banner-contents{
+    position: absolute;
+    top: 200px;
+    padding-top: 15px;
+    margin-left: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-style: normal;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-btns button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: rgba(51,51,51,0.5);
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2vw;
+    outline: none;
+    transition: transform 450ms;
+
+}
+.banner_descriptions{
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45rem;
+    line-height: 1.3rem;
+    /* font-size: 0.8rem; */
+
+}
+
+button:hover{
+    color: black;
+    background-color: whitesmoke;
+    transform: scale(1.09);
+}
+
+.mylist{
+    position: relative;
+    top: 70px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.title-list{
+    color: white;
+    position: relative;
+    top:70px;
+    padding-left: 20px;
+   
+   
+
+}
+
+.list{
+    position: fixed;
+    top:10px;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
 }

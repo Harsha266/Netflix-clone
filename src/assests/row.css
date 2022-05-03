@@ -1,0 +1,52 @@
+.box{
+    display: flex;
+    /* background-color: black; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /* padding: 25px; */
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #111;
+  
+}
+Link{
+
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+   
+    /* width: 100%; */
+    width: 180px;
+    height: 100px;
+    flex-shrink: 0;
+
+     
+      margin-right: 15px;
+      max-height: 200px;
+      transition: transform 450ms;
+   
+}
+.poster img{
+    border-radius: 2px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.poster_large img{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    max-height: 250px;
+    border-radius: 2px;
+
+}
+
+.poster_large:hover{
+    transform: scale(1.09);
+}

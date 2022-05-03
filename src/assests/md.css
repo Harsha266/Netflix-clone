@@ -1,0 +1,99 @@
+
+.movie_des{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.image-banner{
+    top: 0px;
+    display:flex;
+    
+   
+    height: 480px;
+    background-color: black;
+   
+}
+.image-banner img{
+    width: 100%;
+    max-width: 200%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+.details{
+    display: flex;
+    margin-bottom: 5px;
+    /* margin-top: 25px; */
+    padding-left:5px
+}
+.details p{
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.overview-des{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.name{
+    padding-top: 15px;
+   
+    padding-left: 25px;
+    font-size: 40px;
+}
+.overview{
+    line-height: 1.2;
+    justify-content: space-between;
+    transition: all .25s ease;
+}
+
+.overview-des{
+    padding-left: 15px;
+
+}
+.textfull{
+    padding-left: 15px;
+    /* padding-top: 15px; */
+    transition: content 0.1s ease-in;
+
+}
+.certificate{
+    border: 1px solid white;
+}
+.remaining{
+   
+
+
+}
+.btn-list{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: white;
+    color: #111;
+    cursor: pointer;
+    border-radius: 0.2vw;
+    outline: none;
+    transition: transform 450ms
+
+}
+.updater{
+    padding: 20px;
+    cursor: pointer;
+    color: #23C4ED;
+    transition: all 0.2s ease;
+
+}
+.updater:hover{
+    /* font-size: 20px; */
+}
+.movie_des{
+    background-color: black;
+    color: white;
+
+}
